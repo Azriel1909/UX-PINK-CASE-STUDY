@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>PinkHat | CV</title>
+    <title>PinkHat | UX</title>
     <meta charset="utf-8"></meta>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     <link rel="stylesheet" href="./styles.css"/>
@@ -60,17 +60,20 @@
     <!-- End Menu -->
     <main id="main-doc" class="main-doc">
       <!-- Part 1 -->
-      <section class="hero" >
-        <img  class="img-hero" src="img/undraw_healthy_habit_onn4.svg">
-      </section>
       <section class="main-section" id="Project">
         <header>
-          <h2>Gym App Project</h2>
+          <h2>Project Description</h2>
         </header>
+        <section class="img-section">
+          <img class="img" src="img/mobile.svg">
+        </section>
+        <section class="description">
           <ul>
+            <li>PROJECT: GymTraini</li>
             <li>ROLE: Interface, Interactions, Research</li>
             <li>DURATION: Spring 2022 (Feb - April)</li>
           </ul>
+        </section>
       </section>
       <!-- End Part 1 -->
       <!-- Part 2 -->
@@ -78,7 +81,12 @@
         <header>
           <h2>Project-Vision</h2>
         </header>
-        
+        <section class="img-section">
+          <img class="img" src="img/vision.svg">
+        </section>
+        <section class="description">
+          <p class="des">We're building an app to help people find workouts that match their fitness level and view their progress from within the app. Before launch we need to find out if it is easy for users to identify their routines and training progress. We would like to understand what specific challenges our users may face in the process of finding exercises, adding them to their routine for the day and visualizing their progress, so we can help them solve those challenges. GymTraini is an attractive mobile application to take to all training sessions and meet your goals.</p>
+        </section>
       </section>
       
       <!-- End Part 2 -->
@@ -87,7 +95,9 @@
         <header>
           <h2>Kickoff</h2>
         </header>
-          
+        <section class="description">
+          <p class="des">In the GymTraini design process, I opted for a design approach to short-term value delivery.Qualitative and quantitative research methods allowed for a simple and functional design. The methodology covers the following: interviews with users, questionnaires and usability testing sessions.The process was iterative and thanks to the feedback, I found agile ways to solve problems and deliver value to clients.</p>
+        </section>
       </section>
       <!-- End Part 3 -->
       <!-- Part 4 -->
@@ -96,17 +106,40 @@
         <header>
           <h2>Ideation</h2>
         </header>
-          <ul>
-          </ul>
-      </section>
-      <section class="hero" >
-        <img  class="img-hero" src="img/undraw_stability_ball_b-4-ia.svg">
+        <section class="img-section">
+          <img class="img" src="img/papers.svg">
+        </section>
+        <section class="description">
+          <p class="des">I started by brainstorming, writing down all the possible ideas, until this point there was not a bad or good idea. I used affinity mapping to identify achievable GymTrani ideas. I consider that the brainstorming process allowed me to shape the complete picture of the product.</p>
+        </section>
       </section>
       <!-- End Part 4 -->
       <!-- Part 5 -->
       <section class="main-section" id="Insights">
         <header>
-          <h2>Insights</h2>
+          <h2>Research Questions</h2>
+          <section class="description">
+            <ul>
+              <li>How long does it take for the user to find exercises that match their fitness level within the app?</li>
+              <li>What can we learn from the flow that the user follows to add the exercises to their training plan for the day?</li>
+              <li>Where users can get stuck within the app?</li>
+              <li>Do the daily routine recommendations help the user to make an easy decision?</li>
+            </ul>
+            <h2>Insight Identification</h2>
+            <ul>
+              <li>Users need a more intuitive way to access menu settings.</li>
+              <li>Users need better cues for what steps are required to create a routine.</li>
+              <li>Users need more information about the potential value of their workout level.</li>
+              <li>Users need better cues for what sections are required to edit.</li>
+              <li>Users need more information about the graphic visualization</li>
+            </ul>
+            <h2>Pattern Identification</h2>
+            <ul>
+              <li>75% of users not everyone knows which workouts are right for their level of training</li>
+              <li>50% of users are not immediately clear on how to create a new routine</li>
+            </ul>
+          </section>
+          
         </header>
       </section>
       <!-- End Part 5 -->
@@ -115,6 +148,20 @@
         <header>
           <h2>Users</h2>
         </header>
+        <section class="img-section user-sec">
+          <img class="img-user" src="https://images.unsplash.com/photo-1517344368193-41552b6ad3f5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80">
+          <h3>Thiago(23)</h3>
+          <p>Engineer</p>
+          <h4>Narrative</h4>
+          <p>A person who would like to easily identify exercise routines for different days of the week, tracking progress would make him feel motivated.</p>
+        </section>
+        <section class="img-section user-sec">
+          <img class="img-user" src="https://images.unsplash.com/photo-1592632789004-57d4354f2499?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80">
+          <h3>Conratt(30)</h3>
+          <p>Teacher</p>
+          <h4>Narrative</h4>
+          <p>A person looking to progress their training at the gym by keeping track of weight loaded and reps per session to gain muscle.</p>
+        </section>
       </section>
       <!-- End Part 6 -->      
       <!-- Part 7 -->
@@ -122,6 +169,10 @@
         <header>
           <h2>Problem-Statement</h2>
         </header>
+
+        <section class="description">
+          <p class="des">Thiago is a beginner in training who needs a way to keep track of  workout progress and routines</p>
+        </section>
       </section>
       <!-- End Part 7 -->
       <!-- Part 8 -->
@@ -129,13 +180,20 @@
         <header>
           <h2>Key-Path-Scenarios</h2>
         </header>
+        <section class="img-section">
+          <img class="img" src="img/Userflow.svg">
+        </section>
       </section>
       <!-- End Part 8 -->  
       <!-- Part 9 -->
       <section class="main-section" id="Lo-Fi-Prototype">
         <header>
           <h2>Lo-Fi-Prototype</h2>
+          <section class="img-section">
+            <img class="img-lofi" src="img/lofi.png">
+          </section>
         </header>
+        
       </section>
       <!-- End Part 9 --> 
       <!-- Part 10 -->

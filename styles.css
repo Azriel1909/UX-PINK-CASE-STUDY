@@ -14,6 +14,43 @@ section {
   color: var(--f-dark);
 }
 
+.img-section {
+  text-align: center;
+  margin: 1rem;
+}
+
+.description {
+  width: 100%;
+  text-align: center;
+}
+
+.des {
+  max-width: 900px;
+  margin: auto;
+}
+
+.img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.img-user {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.img-lofi {
+  width: 100%;
+}
+
+.user-sec {
+  padding: 2rem;
+  background-color: #f6f6f6;
+  border-radius: 10px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -23,15 +60,6 @@ html, body {
   font-family: var(--ff-ubuntu);
   line-height: var(--lh);
   background-color: var(--bc-secondary);
-}
-
-.hero {
-  text-align: center;
-}
-
-.img-hero {
-  max-width: 400px;
-  text-align: center;
 }
 
 header {
@@ -111,7 +139,9 @@ h2 {
 ul {
   padding-top: 1rem;
   padding-left: 1rem;
+  list-style: none;
 }
+
 
 section ul a {
   text-decoration: none;
