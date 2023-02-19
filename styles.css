@@ -45,6 +45,10 @@ section {
   width: 100%;
 }
 
+iframe {
+  width: 100%;
+}
+
 .user-sec {
   padding: 2rem;
   background-color: #f6f6f6;
